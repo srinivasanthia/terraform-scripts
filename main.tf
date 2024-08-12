@@ -22,7 +22,7 @@ resource "aws_s3_bucket" "example" {
   }
 }
 
-resource "aws_s3_bucket" "example" {
+resource "aws_s3_bucket" "demobucket" {
   bucket = "srini-tf-demo-bucket"
 
   tags = {

@@ -21,3 +21,12 @@ resource "aws_s3_bucket" "example" {
     Environment = "Dev"
   }
 }
+
+resource "aws_s3_bucket" "example" {
+  bucket = "srini-tf-demo-bucket"
+
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
+}
